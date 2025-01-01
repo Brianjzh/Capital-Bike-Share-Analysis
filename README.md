@@ -67,9 +67,9 @@ This project analyzes bike-sharing data to uncover trends, correlations, and pre
 ## Results
 - **Best Model**: A multiple regression model incorporating polynomial terms for `temp`, `hum`, and `windspeed`.
 - **Evaluation Metrics**:
-  - Training RMSE: `XXX`
-  - Validation RMSE: `XXX`
-  - Test RMSE: `XXX`
+  - Training RMSE: `0.913`
+  - Validation RMSE: `0.897`
+  - Test RMSE: `0.904`
 - **Key Findings**:
   - Marginal effects of temperature and humidity diminish as values increase.
   - Seasonal and hourly trends significantly influence bike rental patterns.
@@ -86,9 +86,6 @@ This project analyzes bike-sharing data to uncover trends, correlations, and pre
 4. **Interpretation Challenges**:
    - Log-transformed coefficients are less intuitive compared to raw counts.
 
----
 
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/bike-sharing-analysis.git
+
+
