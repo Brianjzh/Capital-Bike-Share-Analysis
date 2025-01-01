@@ -76,16 +76,14 @@ This project analyzes bike-sharing data to uncover trends, correlations, and pre
 
 ---
 
-## Limitations
-1. **Linear Regression Assumptions**:
-   - Despite corrections, residual normality and heteroskedasticity violations persist.
-2. **Outliers**:
-   - Extreme observations in the data may impact model robustness.
-3. **Omitted Variables**:
-   - Potentially omitted factors like age, gender, and external events.
-4. **Interpretation Challenges**:
-   - Log-transformed coefficients are less intuitive compared to raw counts.
+## Key Code Snippets
 
-
-
+### **1. Correlation Analysis**
+```R
+correlation_matrix <- bike_data |>
+  select_if(is.numeric) |>
+  cor()
+correlations_with_cnt <- correlation_matrix["cnt", ] |>
+  sort(decreasing = TRUE)
+print(correlations_with_cnt)
 
