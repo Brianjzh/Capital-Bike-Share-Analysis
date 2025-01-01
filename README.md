@@ -76,9 +76,9 @@ This project analyzes bike-sharing data to uncover trends, correlations, and pre
 
 ---
 
-## Key Code Snippets
+## Key Code Snippet:
 
-### **1. Correlation Analysis**
+### Correlation Analysis**
 ```R
 correlation_matrix <- bike_data |>
   select_if(is.numeric) |>
