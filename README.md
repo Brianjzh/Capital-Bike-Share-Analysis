@@ -64,6 +64,16 @@ This project analyzes bike-sharing data to uncover trends, correlations, and pre
 
 ---
 
+## Some Key Visualizations
+
+### Final Regression Equation
+![Attrition by Business Travel](images/RegressionEquation.png)
+
+### Bike Rentals Per Season
+![Average Bike Rentals by Hour for Each Season](images/AverageBikeRentalsBySeason.png)
+
+---
+
 ## Results
 - **Best Model**: A multiple regression model incorporating polynomial terms for `temp`, `hum`, and `windspeed`.
 - **Evaluation Metrics**:
